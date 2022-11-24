@@ -1,0 +1,8 @@
+.addresses {
+  width: 100%;
+  height: calc(100% - 60px);
+
+  padding-top: 10px;
+
+  background-color: white;
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.address-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 30px);
+  height: 200px;
+
+  margin: 0 15px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+  background-color: rgb(230, 230, 230);
+}
+
+.dados {
+  font-size: 20px;
+  margin: 10px;
+
+  color: darkblue;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 5px;
+}
+
+.edit {
+  text-decoration: none;
+
+  font-size: 18px;
+
+  color: darkblue;
+
+  padding: 3px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.delete {
+  text-decoration: none;
+
+  font-size: 18px;
+
+  color: red;
+  background-color: rgb(230, 230, 230);
+
+  padding: 3px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
